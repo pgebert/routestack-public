@@ -1,0 +1,118 @@
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.sidenav-trigger {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+.parallax img {
+    width: 100%;
+    filter: brightness(40%);
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+.featured-col {
+    border: 1px solid #03a9f4;
+    color: #03a9f4;
+    background: rgba(0, 149, 255, 0.05);
+}
+
+h4,
+h5 {
+    margin: 50px 0;
+}
+
+.row {
+    margin: 70px 0;
+    padding: 20px;
+}
+
+#index-banner .row,
+footer .row {
+    margin: 10px 0;
+    padding: 0px;
+}
+
+footer .material-icons {
+    top: 6px;
+    margin-right: 10px;
+    position: relative;
+}
+
+footer img {
+    margin-top: 30px;
+    width: 50px;
+}
+
+footer .navigation li {
+    list-style-type: disc;
+    line-height: 30px;
+}
+
+#features img {
+    position: relative;
+    top: 30px;
+}
+
+#reference .btn-floating {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.social-media-footer i {
+    margin: 20px 5px;
+}
